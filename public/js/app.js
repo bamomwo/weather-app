@@ -1,6 +1,3 @@
-console.log('Client site javascript is working')
-
-
 
 const form = document.querySelector('form')
 const search = document.querySelector('input')
