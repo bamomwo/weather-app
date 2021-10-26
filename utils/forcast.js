@@ -16,7 +16,7 @@ const forcast = (lat, lon, callback) => {
             callback('No Location found', undefined)
         } else {
             callback(undefined,
-                'The weather description is: ' + response.data.weather[0].description + ' and the temperature is ' + response.data.main.temp + ' celcius'
+                'The weather description is: ' + response.data.weather[0].description + ' and the temperature is ' + response.data.main.temp + ' celcius' + '. \n The Humidity is ' + response.data.main.humidity
             )
         }
     }).catch((err) => {
